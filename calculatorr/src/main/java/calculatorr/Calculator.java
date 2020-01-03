@@ -28,6 +28,8 @@ public class Calculator {
 	
 	/**
 	 * 
+	 * 
+	 * 
 	 * @param num
 	 * @return result squre of any value 
 	 * @throws IllegalArgumentException

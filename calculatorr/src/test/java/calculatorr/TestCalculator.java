@@ -25,7 +25,7 @@ public class TestCalculator {
 	@Test
 	public void MaxTest() {
 		assertEquals(5, cal.findMax(3, 2, 5));
-		//assertNotEquals(2, cal.findMax(3, 5, 2));
+		assertNotEquals(2, cal.findMax(3, 5, 2));
 		//assertEquals(-1, cal.findMax(-1, -12, -3));
 		
 	}
@@ -47,6 +47,8 @@ public class TestCalculator {
 		cal.square(-1);  
 	}
 	
+	
+	
 	/**
 	 * this test is use to find cube value is correct or not
 	 */
@@ -57,7 +59,6 @@ public class TestCalculator {
 		assertEquals(8,cal.Cube(2));  
 		//assertNotEquals(2, cal.Cube(2));
 	}
-
 
 	
 	@AfterClass
